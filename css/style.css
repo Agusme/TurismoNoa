@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bgNavBar {
+  background: #12492f;
+  color: #ffff;
+}
+.navbar-nav .nav-link:hover {
+  color: #12492f;
+  background: #ffff;
+}
+.navbar-nav .nav-link.active:hover {
+  color: #12492f;
+}
+.navbar-brand.hover-logo:hover img {
+  background: #7ebc89;
+  padding: 4px;
+}
+
+
+.footer-bg-image {
+  background-image: url('../img/footer.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (min-width: 767px) {
+  .publicidad {
+    width: 35%;
+  }
+  .card-body {
+    width: 65%;
+  }
+  .carousel {
+    max-height: 80vw;
+  }
+ 
+  
+}  
+ @media (max-width: 770px) {
+  .img-blog-none{
+    display: none;
+  }
+ }
+
+@media (max-width: 767px) {
+  .publicidad-none {
+    display: none;
+  }
+}
+
+
+
+@media (min-width: 992px) {
+  .carousel img {
+    height: 600px;
+  }
+}
+
+.imagenPublicidad{
+  width: 100%;
+}
+
+.botonCard{
+  background-color: #12492f;
+  border: none;
+}
+
+.botonCard:hover{
+  background-color: #7EBC89;
+}
+
+.numeracionPag{
+  background-color: #12492f;
+  color: #ffff;
+  border: none;
+}
+
+.numeracionPag:hover{
+  background-color:#7EBC89;
+}
+
+.botonBuscador{
+background-color: #12492f;
+border: none;
+}
+
+.botonBuscador:hover{
+background-color:#7EBC89;
+}
+
+#letraBuascador{
+color: #ffff;
+}
+
+.listaLetras{
+color: black;
+}
+
+.parrafo{
+background-color: #7EBC89;
+}
+
+.listaFondo{
+background-color: #7EBC89;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.espacio{
+  background: #7ebc89;
+  background: linear-gradient(to right,#7ebc89,#12492f)
+}
+
+
+#Galeria{
+  padding-top: 75px;
+}
+
+
+#error404{
+  padding-top: 75px;
+}
+
+.bg-nosotros{
+  background: #7ebc89;
+}
+
+.bg-nosotros-slider{
+  background: #12492f;
+}
+
+.btn-color{
+  background: #7EBC89;
+  color: #ffff;
+}
+
+.btn-color:hover {
+  background:#12492f;
+  color: #ffff ;
+}
+
+.titulo {
+  color: black;
+}
+
+.container {
+  
+  padding-top: 80px ;
+}
+
+.footer-btn{
+  color:#ffff;
+}
+
+.slider-responsive{
+  height: 40vw;
+}
+.img-blog{
+  width: 8vw;
+  height: 7vw;
+}

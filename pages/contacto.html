@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Rocio Hernandez, Santiago Maidana, Axel Chustek, Tomas Merlo, Agustina Mena"
+    />
+    <meta name="description" content="Pagina de turismo del norte" />
+    <meta
+      name="keywords"
+      content="Turismo NOA, bootstrap, html, css, javascript"
+    />
+    <title>Conctacto</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&family=Lato&family=Montserrat:wght@300;400;700;900&family=Open+Sans:wght@700&family=Poppins&family=Prata&family=Raleway&family=Roboto+Flex:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../img/logoNoa.png" type="image/png" />
+    <script
+      src="https://kit.fontawesome.com/8c05ea0bbf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bgNavBar fixed-top px-5 py-3"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand hover-logo" href="../index.html">
+            <img
+              src="../img/logoNoaBlanco.png"
+              alt="logo turismo NOA"
+              width="100"
+              height="auto"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navBar"
+            aria-controls="navBar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navBar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Suscripcion
+                </button>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="container mt-5 pt-5">
+        <h1 class="display-3 pt-4 text-center">Contactanos</h1>
+        <p class="text-center">
+          - Descubre el Norte Argentino donde cada lugar es una postal perfecta
+          que te invita a soñar despierto. -
+        </p>
+        <hr />
+        <article class="row">
+          <div class="col-sm-12 col-md-6">
+            <h4>TURISMO NOA</h4>
+            <p>
+              Visitar el Norte argentino es sumergirse en un mundo de maravillas
+              naturales. Desde las majestuosas cataratas de Iguazú hasta los
+              espectaculares paisajes de la Quebrada de Humahuaca y las
+              imponentes montañas de la Cordillera de los Andes, cada lugar
+              ofrece una postal única.
+            </p>
+            <p>
+              Si tenes dudas o consultas no dejes de completar el siguiente
+              formulario.
+            </p>
+            <p class="pb-">
+              También podes encontrarnos en la Avenida 24 de Septiembre 484, San
+              Miguel de Tucumán.
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227858.35911251203!2d-65.47584617984595!3d-26.830826904230786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c10470c56c9%3A0x7016910ca98c12c1!2sEnte%20Tucum%C3%A1n%20Turismo!5e0!3m2!1ses!2sar!4v1689191858191!5m2!1ses!2sar"
+              class="w-100 border-0"
+              height="450"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <form class="color-yellow p-3 shadow mb-2">
+              <p class="fs-5">
+                Nuestro equipo se pondrá en contacto a la brevedad
+              </p>
+              <div class="mb-3">
+                <label for="nombre" class="form-label"
+                  >Nombre y apellido <span class="text-danger">*</span></label
+                >
+                <input
+                  class="form-control"
+                  type="text"
+                  id="nombre"
+                  placeholder="Juan Perez"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label"
+                  >Email <span class="text-danger">*</span></label
+                >
+                <input
+                  class="form-control"
+                  type="text"
+                  id="email"
+                  placeholder="Juanperez@gmail.com"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Consultas</label>
+                <textarea
+                  class="form-control"
+                  id="comentario"
+                  rows="3"
+                  placeholder="Escriba su consulta"
+                ></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <label for="checkBox" class="form-check-label"
+                  >Recibir novedades</label
+                >
+                <input class="form-check-input" type="checkbox" id="checkBox" />
+              </div>
+              <button class="btn btn-color me-5" type="submit">Enviar</button>
+              <div class="text-center pb-4">
+                <img
+                  src="../img/conctacto/contacto.jpg"
+                  alt="llamas"
+                  class="img-fluid mt-5 me-2 w-75 shadow img-contacto"
+                />
+              </div>
+            </form>
+          </div>
+        </article>
+      </section>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog text-bg-dark p-3">
+          <div class="modal-content text-bg-success p-3">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                ¡Suscríbete para recibir novedades!
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <h4>
+                Para obtener increíbles ofertas, novedades y muchas cosas más.
+              </h4>
+              <div class="mb-3">
+                <label for="email" class="form-label">Suscríbete</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  placeholder="juan@gmail.com"
+                  required
+                />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Cerrar
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                data-bs-dismiss="modal"
+              >
+                Enviar Suscripción
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+  <footer class="footer-bg-image text-white">
+    <section class="container pt-4 text-center pb-4">
+      <article class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <a href="../index.html">
+            <img
+              src="../img/logoBlanco.png"
+              alt="logo turismo NOA"
+              width="150"
+              height="auto"
+            />
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <p class="pt-3">Encontranos en</p>
+          <hr />
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-facebook-f text-white fs-2 pe-2"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-instagram text-white fs-2 pe-2"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <i class="fa-brands fa-twitter text-white fs-2 pe-2"></i>
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <p class="pt-3 text-center">Navegación</p>
+          <hr />
+          <ul class="list-unstyled">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/galeria.html"
+                >Galeria de imágenes</a
+              >
+            </li>
+            <li class="nav-item">
+              <button
+                type="button"
+                class="btn footer-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Suscripción
+              </button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </footer>
+</html>

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Rocio Hernandez, Santiago Maidana, Axel Chustek, Tomas Merlo, Agustina Mena"
+    />
+    <meta name="description" content="Pagina de turismo del norte" />
+    <meta
+      name="keywords"
+      content="Turismo NOA, bootstrap, html, css, javascript"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&family=Lato&family=Montserrat:wght@300;400;700;900&family=Open+Sans:wght@700&family=Poppins&family=Prata&family=Raleway&family=Roboto+Flex:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../img/logoNoa.png" type="image/png">
+    <script
+      src="https://kit.fontawesome.com/8c05ea0bbf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="../img/logoNoa" />
+
+    <title>Quienes somos?</title>
+  </head>
+  <body class="bg-white">
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bgNavBar fixed-top px-5 py-3"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand hover-logo" href="../index.html">
+            <img
+              src="../img/logoBlanco.png"
+              alt="logo turismo NOA"
+              width="100"
+              height="auto"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navBar"
+            aria-controls="navBar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navBar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">
+                  Suscripcion
+                </button>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="my-5 pt-2">
+      <section class="container">
+        <h1 class="display-3 text-center">Sobre Nosotros</h1>
+        <p class="text-center">¡Bienvenidos al equipo de Turismo NOA!</p>
+        <hr />
+        <p class="text-center">
+          Nos enorgullece presentarte a las personas apasionadas que trabajan
+          incansablemente para promover y resaltar la belleza y la riqueza
+          cultural de nuestro hermoso norte argentino. Conoce a nuestro equipo
+          dedicado, comprometido en brindar experiencias inolvidables a nuestros
+          visitantes.
+        </p>
+      </section>
+      <section class="container py-2">
+        <article class="row justify-content-center  bg-nosotros rounded ">
+          <h2 class="text-center fw-bold pt-3">Equipo de Turismo NOA</h2>
+          <div class="col-sm-12 col-md-6 col-lg-4 pt-3 text-center">
+            <img
+              src="../img/nosotros/mujer.jpg"
+              class="img-fluid rounded-circle shadow"
+              alt="..."
+            />
+            <div class="m-2">
+              <h5 class="card-title text-center fw-bold">Rocio Hernandez</h5>
+              <p class="card-text text-center">Gerente general</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 pt-3 text-center">
+            <img
+              src="../img/nosotros/varon3.jpg"
+              class="img-fluid rounded-circle shadow"
+              alt="..."
+            />
+            <div class="m-2">
+              <h5 class="card-title text-center fw-bold">Santiago Maidana</h5>
+              <p class="card-text text-center">Departamento de Marketing</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 pt-3 text-center">
+            <img
+              src="../img/nosotros/varon1.jpg"
+              class="img-fluid rounded-circle shadow"
+              alt="..."
+            />
+            <div class="m-2">
+              <h5 class="card-title text-center fw-bold">Axel Chustek</h5>
+              <p class="card-text text-center">Departamento de Promoción</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 pt-3 text-center">
+            <img
+              src="../img/nosotros/varon2.jpg"
+              class="img-fluid rounded-circle shadow"
+              alt="..."
+            />
+            <div class="m-2">
+              <h5 class="card-title text-center fw-bold">Tomás Merlo</h5>
+              <p class="card-text text-center">
+                Departamento de Desarrollo Sostenible
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 pt-3 text-center ">
+            <img
+              src="../img/nosotros/mujer2.jpg"
+              class="img-fluid rounded-circle shadow"
+              alt="..."
+            />
+            <div class=" m-2">
+              <h5 class="card-title text-center fw-bold">Agustina Mena</h5>
+              <p class="card-text text-center">
+                Departamento de Relaciones Públicas
+              </p>
+            </div>
+          </div>
+
+        </article>
+
+      </section>
+     
+      <section class="container p-3">
+        <article class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <img
+              src="../img/nosotros/nosotros.jpg"
+              alt=""
+              class="img-fluid w-100 mb-2"
+            />
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <h2 class="text-justify fw-bold mb-4">
+              ¡Descubre la excelencia en turismo con nosotros!
+            </h2>
+            <p class="mb-4">
+              Nos esforzamos por ofrecer un servicio excepcional a cada uno de
+              nuestros clientes.
+            </p>
+            <div class="row">
+              <div class="col-sm-12 col-md-6 mb-4">
+                <div class="d-flex text-justify">
+                  <i
+                    class="fa-regular fa-face-smile fa-3x pt-2"
+                    style="color: #51d69d"
+                  ></i>
+                  <div class="mx-3">
+                    <h5 class="fw-bold fs-3">+2500</h5>
+                    <p>Clientes felices</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 mb-4">
+                <div class="d-flex text-justify">
+                  <i
+                    class="fa-regular fa-clock fa-3x pt-2"
+                    style="color: #51d69d"
+                  ></i>
+                  <div class="mx-3">
+                    <h5 class="fw-bold fs-3">+30</h5>
+                    <p>Años de experiencia</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 mb-4">
+                <div class="d-flex text-justify">
+                  <i
+                    class="fas fa-trophy fa-3x pt-2"
+                    style="color: #51d69d"
+                  ></i>
+                  <div class="mx-3">
+                    <h5 class="fw-bold fs-3">+20</h5>
+                    <p>Reconomientos conseguidos</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 mb-4">
+                <div class="d-flex text-justify">
+                  <i
+                    class="fa-solid fa-plane-departure fa-3x pt-2"
+                    style="color: #51d69d"
+                  ></i>
+                  <div class="mx-3">
+                    <h5 class="fw-bold fs-3">+45</h5>
+                    <p>Destinos programados</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="bg-nosotros-slider text-white">
+        <div
+          id="carouselNosotros"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner px-5">
+            <div class="carousel-item active p-5">
+              <p class="fs-6 text-center">
+                "Nuestro objetivo es brindar experiencias auténticas y
+                memorables a nuestros visitantes en el maravilloso NOA".
+              </p>
+              <p class="text-center">Rocío Hernandez</p>
+            </div>
+            <div class="carousel-item p-5">
+              <p class="fs-6 text-center">
+                "Nuestro objetivo es inspirar a las personas a descubrir las
+                maravillas de esta región única a través de nuestras campañas
+                creativas".
+              </p>
+              <p class="text-center">Santiago Maidana</p>
+            </div>
+            <div class="carousel-item p-5">
+              <p class="fs-6 text-center">
+                "Nuestra misión es dar a conocer las maravillas del NOA y atraer
+                a viajeros de todo el mundo a esta región única".
+              </p>
+              <p class="text-center">Axel Chustek</p>
+            </div>
+            <div class="carousel-item p-5">
+              <p class="fs-6 text-center">
+                "Trabajamos con los mejores proveedores de servicios para
+                garantizar la calidad y satisfacción de nuestros clientes".
+              </p>
+              <p class="text-center">Tomás Merlo</p>
+            </div>
+            <div class="carousel-item p-5">
+              <p class="fs-6 text-center">
+                "Nos apasiona dar a conocer las maravillas del NOA y establecer
+                relaciones significativas con nuestro público."
+              </p>
+              <p class="text-center">Agustina Mena</p>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselNosotros"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselNosotros"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog text-bg-dark p-3">
+        <div class="modal-content text-bg-success p-3">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">¡Suscríbete para recibir novedades!</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body"><h4>Para obtener increíbles ofertas, novedades y muchas cosas más.</h4>
+            <div class="mb-3">
+              <label for="email" class="form-label">Suscríbete</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                placeholder="juan@gmail.com"
+                required />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal">
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Enviar Suscripción</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+    <footer class="footer-bg-image text-white">
+      <section class="container pt-4 text-center pb-4">
+        <article class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <a href="../index.html">
+              <img
+                src="../img/logoBlanco.png"
+                alt="logo turismo NOA"
+                width="150"
+                height="auto"
+              />
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <p class="pt-3">Encontranos en</p>
+            <hr />
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fa-brands fa-facebook-f text-white fs-2 pe-2"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fa-brands fa-instagram text-white fs-2 pe-2"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <i class="fa-brands fa-twitter text-white fs-2 pe-2"></i>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <p class="pt-3 text-justify">Horarios de atención</p>
+            <hr />
+
+            <ul class="list-unstyled">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/galeria.html">Galeria de imagenes</a>
+              </li>
+              <li class="nav-item">
+                <button
+                    type="button"
+                    class="btn footer-btn"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Suscripción</button>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+           
+            </ul>
+          </div>
+        </article>
+      </section>
+      <script src="../js/bootstrap.min.js"></script>
+    </footer>
+  </body>
+
+  </html>

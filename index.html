@@ -1,0 +1,397 @@
+  <!DOCTYPE html>
+<html lang="es">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/8c05ea0bbf.js"
+      crossorigin="anonymous"
+    ></script>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Rocio Hernandez, Santiago Maidana, Axel Chustek, Tomas Merlo, Agustina Mena"
+    />
+    <meta name="description" content="Pagina de turismo del norte" />
+    <meta
+      name="keywords"
+      content="Turismo NOA, bootstrap, html, css, javascript"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&family=Lato&family=Montserrat:wght@300;400;700;900&family=Open+Sans:wght@700&family=Poppins&family=Prata&family=Raleway&family=Roboto+Flex:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./img/logoNoa.png" type="image/png">
+    <title>Turismo NOA</title>
+  </head>
+  <body>
+    <header>
+        <nav
+        class="navbar navbar-expand-lg bgNavBar fixed-top px-5 py-3"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand hover-logo" href="index.html">
+            <img
+              src="img/logoBlanco.png"
+              alt="logo turismo NOA"
+              width="100"
+              height="auto"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navBar"
+            aria-controls="navBar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navBar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">
+                  Suscripcion
+                </button>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div id="bannerPrincipal" class="mt-5 pt-5 carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#bannerPrincipal"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#bannerPrincipal"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#bannerPrincipal"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner pt-3">
+            <div class="carousel-item active">
+              <img
+                src="img/portadatafi.jfif"
+                class="d-block w-100 img-fluid slider-responsive"
+                alt="Slider1TafiDelValle"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/Slider2SanJavier.jpeg"
+                class="d-block w-100 img-fluid slider-responsive"
+                alt="Slider2SanJavier"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/Slider3ElSiambon.jpg"
+                class="d-block w-100  img-fluid slider-responsive"
+                alt="Slider3"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#bannerPrincipal"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#bannerPrincipal"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="container-fluid my-4">
+        <article class="row shadow">
+          <div class="col-sm-12 col-md-8">
+            <div class="card text-center border border-0 my-4">
+              <img
+                src="img/TafiDelValle.webp"
+                class="card-img-top"
+                alt="TafiDelValle"
+              />
+              <div class="card-body w-100 parrafo">
+                <h5 class="card-title">Tafi Del Valle</h5>
+                <p class="card-text">
+                  Tafí del Valle es una localidad que se encuentra ubicada en el
+                  departamento homónimo, del cual es cabecera, en el oeste de la
+                  Provincia de Tucumán, a 126 km de la capital provincial, San
+                  Miguel de Tucumán.
+                </p>
+                <a href="/pages/entradaBlog.html" class="btn btn-primary botonCard">Ver más</a>
+              </div>
+            </div>
+            <div class="card text-center border border-0 my-4">
+              <img
+                src="img/TermasDeRioHondo (1).webp"
+                class="card-img-top"
+                alt="TermasDeRioHondo"
+              />
+              <div class="card-body w-100 parrafo">
+                <h5 class="card-title">Termas De Rio Hondo</h5>
+                <p class="card-text">
+                  Termas de Río Hondo es una ciudad del norte de Argentina, en
+                  la provincia de Santiago del Estero. Es cabecera del
+                  departamento Río Hondo, a orillas del río Dulce.
+                </p>
+                <a href="./pages/404.html" class="btn btn-primary botonCard">Ver más</a>
+              </div>
+            </div>
+            <div class="card text-center border border-0">
+              <img
+                src="img/DiqueElCadillal.jpg"
+                class="card-img-top"
+                alt="DiqueElCadillal2"
+              />
+              <div class="card-body w-100 parrafo">
+                <h5 class="card-title">Dique El Cadillal</h5>
+                <p class="card-text">
+                  El Cadillal es una localidad y comuna argentina ubicada en el
+                  Departamento Tafí Viejo de la Provincia de Tucumán. Es una
+                  villa turística ubicada sobre el Dique Celestino Gelsi, que
+                  permite el baño en sus playas y deportes acuáticos
+                </p>
+                <a href="./pages/404.html" class="btn btn-primary botonCard">Ver más</a>
+              </div>
+            </div>
+            <nav class="d-flex justify-content-center my-2">
+              <ul class="pagination pagination-sm">
+                <li class="page-item active" aria-current="page">
+                  <span class="page-link pag-button numeracionPag">1</span>
+                </li>
+                <li class="page-item">
+                  <a class="page-link numeracionPag" href="pages/404.html">2</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link numeracionPag" href="pages/404.html">3</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <form
+              class="d-flex mt-2"
+              role="search"
+              action="pages/error404.html"
+            >
+              <input
+                class="form-control me-2 listaFondo"
+                type="search"
+                placeholder="Buscar"
+                aria-label="search"
+                required
+              />
+              <button class="btn botonBuscador" type="submit" id="letraBuascador">Buscar</button>
+            </form>
+            <ul class="list-group list-group-flush mt-3">
+              <li class="list-group-item listaFondo">
+                <a href="/pages/entrada.html" class="text-decoration-none listaLetras"
+                  >Tafi Del Valle</a
+                >
+              </li>
+              <li class="list-group-item listaFondo">
+                <a href="./pages/404.html" class="text-decoration-none listaLetras"
+                  >Termas De Rio Hondo</a
+                >
+              </li>
+              <li class="list-group-item listaFondo">
+                <a href="./pages/404.html" class="text-decoration-none listaLetras"
+                  >El Cadillal</a
+                >
+              </li>
+            </ul>
+            <img
+                src="https://www.turismodebolsillo.com.ar/media/novedades/thumbs/39_tuc.jpg"
+                class="w-100 mt-4 publicidad-none"
+                alt="DiqueElCadillal2"
+              />
+          </div>
+        </article>
+      </section>
+    </main>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog text-bg-dark p-3">
+        <div class="modal-content text-bg-success p-3">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">¡Suscríbete para recibir novedades!</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body"><h4>Para obtener increíbles ofertas, novedades y muchas cosas más.</h4>
+            <div class="mb-3">
+              <label for="email" class="form-label">Suscríbete</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                placeholder="juan@gmail.com"
+                required />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal">
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Enviar Suscripción</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+  <footer class="footer-bg-image text-white">
+    <section class="container pt-4 text-center pb-4">
+      <article class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <a href="../index.html">
+            <img
+              src="../img/logoBlanco.png"
+              alt="logo turismo NOA"
+              width="150"
+              height="auto"
+            />
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <p class="pt-3">Encontranos en</p>
+          <hr />
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-facebook-f text-white fs-2 pe-2"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-instagram text-white fs-2 pe-2"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <i class="fa-brands fa-twitter text-white fs-2 pe-2"></i>
+          </a>
+        </div>
+    <div class="col-sm-12 col-md-4 col-lg-4">
+          <p class="pt-3 text-center">Navegación</p>
+          <hr/>
+          <ul class="list-unstyled">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/galeria.html">Galeria de imágenes</a>
+            </li>
+            <li class="nav-item">
+              <button
+                  type="button"
+                  class="btn footer-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">Suscripción</button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </li>
+         
+          </ul>
+        </div>
+      </article>
+    </section>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog text-bg-dark p-3">
+        <div class="modal-content text-bg-success p-3">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">¡Suscríbete para recibir novedades!</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body"><h4>Para obtener increíbles ofertas, novedades y muchas cosas más.</h4>
+            <div class="mb-3">
+              <label for="email" class="form-label">Suscríbete</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                placeholder="juan@gmail.com"
+                required />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal">
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Enviar Suscripción</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Rocio Hernandez, Santiago Maidana, Axel Chustek, Tomas Merlo, Agustina Mena"
+    />
+    <meta name="description" content="Pagina de turismo del norte" />
+    <meta
+      name="keywords"
+      content="Turismo NOA, bootstrap, html, css, javascript"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&family=Lato&family=Montserrat:wght@300;400;700;900&family=Open+Sans:wght@700&family=Poppins&family=Prata&family=Raleway&family=Roboto+Flex:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../img/logoNoa.png" type="image/png" />
+    <script
+      src="https://kit.fontawesome.com/8c05ea0bbf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="../img/logoNoa" />
+
+    <title>Entrada Blog</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bgNavBar fixed-top px-5 py-3"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand hover-logo" href="../index.html">
+            <img
+              src="../img/logoBlanco.png"
+              alt="logo turismo NOA"
+              width="100"
+              height="auto"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navBar"
+            aria-controls="navBar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navBar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Suscripcion
+                </button>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="container">
+        <article class="mt-5 py-3">
+          <h1 class="display-3 text-center">Tafí del valle</h1>
+          <p class="text-justify">
+            Ubicado sobre el Río El Churqui, Tafí del Valle nos da la
+            posibilidad de conocer el valle de mayor extensión del mundo y el
+            único que es atravesado por el cordón montañoso, el Cerro El Pelao.
+            Este destino te recibe con su paisaje totalmente verde y con caminos
+            de tierra que dan testimonio de años de historia.
+          </p>
+          <p class="text-justify">
+            Este mismo valle es el importante paso que conecta los Valles
+            Calchaquíes al oeste, con la gran Llanura Chacopampeana al este.
+            Además, es uno de los lugares de turismo más paradisíacos de los que
+            se puede disfrutar en Tucumán, y es un privilegio tanto para los
+            turistas nacionales como extranjeros, pues conserva los misterios de
+            la cultura de los pueblos originarios.
+          </p>
+          <p class="text-justify">
+            Tafí del Valle se encuentra a unos 2,000 metros de altura sobre el
+            nivel del mar, lo que brinda un clima muy agradable y permite ser
+            visitado durante todo el año. Daremos un recorrido y resolveremos
+            todas tus dudas de viaje por Tafí del Valle, un paisaje de
+            incalculable belleza.
+          </p>
+          <h4 class="text-center pb-2">Lugares turísticos</h4>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../img/entrada/dique.webp"
+                  class="card-img-top h-75"
+                  alt="Dique la Angostura"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Dique la Angostura</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../img/entrada/ruins-of-quilmes-650491_1920-1024x768.png"
+                  class="card-img-top h-75"
+                  alt="Dique la Angostura"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Ruina de Quilmes</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../img/entrada/Museo_Jesuitico_La_Banda_Tafi_del_Valle_5.png"
+                  class="card-img-top h-75"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Museo Jesuítico La Banda</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <p class="fw-bold">Escribe un comentario</p>
+          <form>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleName"
+                placeholder="Nombre"
+                maxlength="10"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="exampleEmail"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Página Web"
+              />
+            </div>
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="floatingTextarea"
+              ></textarea>
+              <label for="floatingTextarea">Escriba su consulta</label>
+            </div>
+
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Guarda tus datos para la próxima vez que comentes!</label
+              >
+            </div>
+            <button type="submit" class="btn btn-color mb-3">Enviar</button>
+          </form>
+        </article>
+        <article>
+          <hr />
+          <p class="fw-bold fs-4">Comentarios</p>
+          <p class="fw-bold">5 comentarios</p>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-sm-12 col-md-1 col-lg-1 img-blog-none">
+                  <img
+                    src="../img/entrada/blog.jpg"
+                    alt="Hector"
+                    class="img-blog mt-4 ms-1 rounded d-none d-sm-block"
+                  />
+                </div>
+                <div class="col-sm-12 col-md-11 col-lg-11 ps-5 pt-3">
+                  <p>
+                    <span class="fw-bold px-1">Héctor</span> - Mi baúl de blog
+                  </p>
+                  <p class="text-justify">
+                    Acabo de ver el blog y sin duda fue una experiencia
+                    inolvidable, Me encanta el paisaje y haberlo visitado en la
+                    estacion correcta, un poco de frío nada mas pero se disfrutó
+                    mucho!
+                  </p>
+                  <p class="text-secondary">
+                    Hace un momento
+                    <span class="text-primary px-1">Responder</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-sm-12 col-md-1 col-lg-1 img-blog-none">
+                  <img
+                    src="../img/entrada/blog1.jpg"
+                    alt="Leandro"
+                    class="img-blog mt-4 ms-1 rounded d-none d-sm-block"
+                  />
+                </div>
+                <div class="col-sm-12 col-md-11 col-lg-11 ps-5 pt-3">
+                  <p class="fw-bold">Leandro</p>
+                  <p class="text-justify">
+                    Muy buen blog!! Algunos de mis amigos estaban muy
+                    interesados en viajar a Tafí, ahora lo estamos considerando
+                    seriamente en visitar el lugar.
+                  </p>
+                  <p class="text-secondary">
+                    32 min <span class="text-primary px-1">Responder</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-sm-12 col-md-1 col-lg-1 img-blog-none">
+                  <img
+                    src="../img/entrada/blog2.jpg"
+                    alt="Ana"
+                    class="img-blog mt-4 ms-1 rounded d-none d-sm-block"
+                  />
+                </div>
+                <div class="col-sm-12 col-md-11 col-lg-11 ps-5 pt-3">
+                  <p class="fw-bold">Ana</p>
+                  <p class="text-justify">
+                    Gracias, es un blog interesante! ahora que tenemos tiempo
+                    para soñar con viajar deberiamos aprovecharlo. Un saludo
+                  </p>
+                  <p class="text-secondary">
+                    Jul 28, 2023
+                    <span class="text-primary px-1">Responder</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-sm-12 col-md-1 col-lg-1 img-blog-none">
+                  <img
+                    src="../img/entrada/blog4.jpg"
+                    alt="Axel"
+                    class="img-blog mt-4 ms-1 rounded d-none d-sm-block"
+                  />
+                </div>
+                <div class="col-sm-12 col-md-11 col-lg-11 ps-5 pt-3">
+                  <p class="fw-bold">Axel</p>
+                  <p class="text-justify">
+                    Hola!! Muchos de esos sitios web no los conocía. Me ha
+                    encantado el blog. Un saludo!
+                  </p>
+                  <p class="text-secondary">
+                    Mayo 2, 2023
+                    <span class="text-primary px-1">Responder</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item mb-4">
+              <div class="row">
+                <div class="col-sm-12 col-md-1 col-lg-1 img-blog-none">
+                  <img
+                    src="../img/entrada/blog3.jpg"
+                    alt="Fran"
+                    class="img-blog mt-4 ms-1 rounded d-none d-sm-block"
+                  />
+                </div>
+                <div class="col-sm-12 col-md-11 col-lg-11 ps-5 pt-3">
+                  <p class="fw-bold">Fran</p>
+                  <p class="text-justify">
+                    Muy interesante el artículo. La informacion invita a un
+                    viaje muy prometedor. Un saludo!
+                  </p>
+                  <p class="text-secondary">
+                    Enero 15, 2023
+                    <span class="text-primary px-1">Responder</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog text-bg-dark p-3">
+        <div class="modal-content text-bg-success p-3">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              ¡Suscríbete para recibir novedades!
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h4>
+              Para obtener increíbles ofertas, novedades y muchas cosas más.
+            </h4>
+            <div class="mb-3">
+              <label for="email" class="form-label">Suscríbete</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                placeholder="juan@gmail.com"
+                required
+              />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button
+              type="button"
+              class="btn btn-success"
+              data-bs-dismiss="modal"
+            >
+              Enviar Suscripción
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+    <footer class="footer-bg-image text-white">
+      <section class="container pt-4 text-center pb-4">
+        <article class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <a href="../index.html">
+              <img
+                src="../img/logoBlanco.png"
+                alt="logo turismo NOA"
+                width="150"
+                height="auto"
+              />
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <p class="pt-3">Encontranos en</p>
+            <hr />
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fa-brands fa-facebook-f text-white fs-2 pe-2"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fa-brands fa-instagram text-white fs-2 pe-2"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <i class="fa-brands fa-twitter text-white fs-2 pe-2"></i>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <p class="pt-3 text-justify">Horarios de atención</p>
+            <hr />
+
+            <ul class="list-unstyled">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/galeria.html"
+                  >Galeria de imagenes</a
+                >
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn footer-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Suscripción
+                </button>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
+     
+      <script src="../js/bootstrap.min.js"></script>
+    </footer>
+  </body>
+</html>

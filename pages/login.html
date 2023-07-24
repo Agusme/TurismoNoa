@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Rocio Hernandez, Santiago Maidana, Axel Chustek, Tomas Merlo, Agustina Mena" />
+    <meta name="description" content="Pagina de turismo del norte" />
+    <meta
+      name="keywords"
+      content="Turismo NOA, bootstrap, html, css, javascript" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&family=Lato&family=Montserrat:wght@300;400;700;900&family=Open+Sans:wght@700&family=Poppins&family=Prata&family=Raleway&family=Roboto+Flex:wght@300&display=swap"
+      rel="stylesheet" />
+      <script
+      src="https://kit.fontawesome.com/8c05ea0bbf.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Turismo NOA</title>
+  </head>
+  <body>
+   
+    <header>
+      <nav
+      class="navbar navbar-expand-lg bgNavBar fixed-top px-5 py-3"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand hover-logo" href="/index.html">
+          <img
+            src="../img/logoBlanco.png"
+            alt="logo turismo NOA"
+            width="100"
+            height="auto"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navBar"
+          aria-controls="navBar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navBar">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <button
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Suscripcion
+              </button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <main>
+      <section class="espacio"><br />
+      <div class="container my-5 w-75">
+        <div class="row g-0">
+          <div class="col px-4 py-3 bg-light bg-opacity-75 shadow">
+            <h2 class="fw-bold text-center py-5">Bienvenidos</h2>
+            <form action="#">
+              <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  placeholder="juan@gmail.com"
+                  required />
+              </div>
+              <div class="mb-4">
+                <label for="password" class="form-label">Contraseña</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  name="password"
+                  placeholder="**********"
+                  maxlength="15"
+                  minlength="5"
+                  required />
+              </div>
+              <div class="mb-3 form-check">
+                <div class="form-check form-switch">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="flexSwitchCheckDefault" />
+                  <label class="form-check-label" for="flexSwitchCheckDefault"
+                    >Recuérdame</label
+                  >
+                </div>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-success">
+                  <a target="_blank" rel="noopener noreferrer"
+                    >Iniciar Sesion</a
+                  >
+                </button>
+              </div>
+              <div class="my-3">
+                <span
+                  >No tenes cuenta?
+                  <a
+                    href="../pages/404.html"
+                    target="_blank"
+                    class="link-primary"
+                    >Registrate</a
+                  >
+                </span>
+                <br />
+                <div>
+                  <span
+                    type="button"
+                    class="link-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+                    Olvidaste tu contraseña?
+                  </span>
+                </div>
+              </div>
+            </form>
+            <div class="container w-100 my-5">
+              <div class="row text-center">
+                <div class="col-12">Tambien podes iniciar sesion con:</div>
+              </div>
+              <br />
+              <div class="row">
+                <div class="col">
+                  <a
+                    href="https://www.facebook.com/Meta"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <button class="btn btn-outline-primary w-100 my-1">
+                      <div class="row align-items-center">
+                        <div class="col-2">
+                          <img
+                            src="../img/facebook.png"
+                            width="32"
+                            alt="logo facebook" />
+                        </div>
+                        <div class="col-10 text-center">Facebook</div>
+                      </div>
+                    </button>
+                  </a>
+                </div>
+                <div class="col">
+                  <a
+                    href="https://accounts.google.com/v3/signin/identifier?dsh=S218824536%3A1689346406589603&continue=https%3A%2F%2Ftakeout.google.com%2F%3Fhl%3Des&followup=https%3A%2F%2Ftakeout.google.com%2F%3Fhl%3Des&hl=es&ifkv=AeDOFXj20qkoHIxniisfCb88RQCC6yv9_9YRsziBzbC5xaVEKDV1X8-Vqe4ZgQOi2p6Bo3Pow8F96Q&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <button class="btn btn-outline-danger w-100 my-1">
+                      <div class="row align-items-center">
+                        <div class="col-2">
+                          <img
+                            src="../img/google.png"
+                            width="32"
+                            alt="logo google" />
+                        </div>
+                        <div class="col-10 text-center">Google</div>
+                      </div>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-6">
+            <img src="../img/login/casa historica.jpeg" alt="" class="img-fluid w-100 h-100">
+          </div>
+        </div>
+      </div>
+      <section class="espacio"><br /></section>
+    </main>
+    <!-- moldal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1
+              class="modal-title text-decoration-underline fs-5"
+              id="staticBackdropLabel">
+              OLVIDASTE TU CONTRASEÑA?
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-light bg-success">
+            Ingresa tu correo electronico
+          </div>
+          <div class="modal-body">
+            <p class="fw-bold">
+              Te enviaremos un email con instrucciones sobre cómo restablecer tu
+              contraseña.
+            </p>
+            <label for="email" class="form-label">Correo electrónico:</label>
+            <input
+              type="email"
+              class="form-control"
+              name="email"
+              placeholder="juan@gmail.com" />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal">
+              Cerrar
+            </button>
+            <button
+              type="button"
+              class="btn btn-success"
+              data-bs-dismiss="modal">
+              Enviar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog text-bg-dark p-3">
+        <div class="modal-content text-bg-success p-3">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              ¡Suscríbete para recibir novedades!
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h4>
+              Para obtener increíbles ofertas, novedades y muchas cosas más.
+            </h4>
+            <div class="mb-3">
+              <label for="email" class="form-label">Suscríbete</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                placeholder="juan@gmail.com"
+                required />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal">
+              Cerrar
+            </button>
+            <button
+              type="button"
+              class="btn btn-success"
+              data-bs-dismiss="modal">
+              Enviar Suscripción
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-bg-image text-white">
+      <section class="container pt-4 text-center pb-4">
+        <article class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <a href="../index.html">
+              <img
+                src="../img/logoBlanco.png"
+                alt="logo turismo NOA"
+                width="150"
+                height="auto"
+              />
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <p class="pt-3">Encontranos en</p>
+            <hr />
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fa-brands fa-facebook-f text-white fs-2 pe-2"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fa-brands fa-instagram text-white fs-2 pe-2"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <i class="fa-brands fa-twitter text-white fs-2 pe-2"></i>
+            </a>
+          </div>
+      <div class="col-sm-12 col-md-4 col-lg-4">
+            <p class="pt-3 text-center">Navegación</p>
+            <hr/>
+            <ul class="list-unstyled">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/galeria.html">Galeria de imágenes</a>
+              </li>
+              <li class="nav-item">
+                <button
+                    type="button"
+                    class="btn footer-btn"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Suscripción</button>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+           
+            </ul>
+          </div>
+        </article>
+      </section>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog text-bg-dark p-3">
+          <div class="modal-content text-bg-success p-3">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">¡Suscríbete para recibir novedades!</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+            <div class="modal-body"><h4>Para obtener increíbles ofertas, novedades y muchas cosas más.</h4>
+              <div class="mb-3">
+                <label for="email" class="form-label">Suscríbete</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  placeholder="juan@gmail.com"
+                  required />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal">
+                Cerrar
+              </button>
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Enviar Suscripción</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
